@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vincenzo Panes | WDD 231</title>
+
+    <meta name="description" content="WDD 231 course homepage for Vincenzo Panes.">
+    <meta name="author" content="Vincenzo Panes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.svg" alt="Site logo" width="40" height="40">
+            <span>Vincenzo Panes Irribarra</span>
+        </div>
+        <button id="menu" aria-label="Open navigation menu"></button>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="chamber.html">Chamber</a></li>
+            <li><a href="final.html">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <div class="top-sections">
+            <section class="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Vincenzo Panes Irribarra! I'm a student at BYU-Pathway Worldwide, and I'm excited to be part of the WDD 231 course. I have a passion for web development and I'm always looking to learn new skills and techniques.</p>
+            </section>
+
+            <section class="photo">
+                <h2>Student Photo</h2>
+                <img src="images/profile.jpg" alt="Portrait of Vincenzo Panes" width="200" height="200" loading="lazy">
+            </section>
+        </div>
+
+        <section class="certificate">
+            <h2>Web Certificate Courses</h2>
+                <div class="filters">
+                    <button id="all">All</button>
+                    <button id="wdd">WDD</button>
+                    <button id="cse">CSE</button>
+                </div>
+
+                <div id="courses"></div>
+
+                <p id="credits"></p>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="social">
+
+            <a href="https://github.com/vincenzopanes" target="_blank" rel="noopener">
+                <img src="images/github.svg" alt="GitHub" loading="lazy">
+            </a>
+
+            <a href="https://www.linkedin.com/in/vincenzo-panes-irribarra-a22536396/" target="_blank" rel="noopener">
+                <img src="images/linkedin.svg" alt="LinkedIn" loading="lazy">
+            </a>
+
+            <a href="https://www.instagram.com/vince_panes/" target="_blank" rel="noopener">
+                <img src="images/instagram.svg" alt="Instagram" loading="lazy">
+            </a>
+        </div>
+
+        <p>&copy; <span id="currentyear"></span> | Vincenzo Panes | Concepción, Chile</p>
+
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

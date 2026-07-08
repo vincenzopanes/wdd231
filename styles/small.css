@@ -1,0 +1,258 @@
+:root {
+    --primary-color: #0d3b66;
+    --secondary-color: #14558f;
+    --accent-color: #1f6fb2;
+
+    --background-color: #f5f7fa;
+    --surface-color: #ffffff;
+
+    --text-color: #222;
+    --heading-color: #ffffff;
+
+    --border-color: #d8dce2;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Gelasio", sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-sections {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    overflow: hidden;
+}
+
+section h2 {
+    margin:0;
+    background: var(--primary-color);
+    color:white;
+    text-align:center;
+    padding:.5rem;
+    font-size:1rem;
+}
+
+.about {
+    padding-bottom: 1rem;
+}
+
+.about p {
+    padding:1rem;
+    text-align:justify;
+}
+
+.photo {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.photo img {
+    width:180px;
+    height:220px;
+    object-fit:cover;
+    margin:1rem;
+}
+
+.certificate {
+    margin-top:1rem;
+}
+
+.certificate h2 {
+    background: var(--primary-color);
+}
+
+#courses {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:.5rem;
+    padding:1rem;
+}
+
+.course {
+    background:#e7edf4;
+    border:1px solid var(--border-color);
+    text-align:center;
+    padding:.5rem;
+    font-weight:600;
+}
+
+.completed {
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: bold;
+}
+
+#credits {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--primary-color);
+    color: white;
+    padding: .75rem 1rem;
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+}
+
+.logo span {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+    background: var(--primary-color);
+}
+
+.navigation {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation.show {
+    display:flex;
+    flex-direction:column;
+}
+
+.navigation li {
+    border-top: 1px solid rgba(255,255,255,.25);
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+    background: rgba(255,255,255,.2);
+}
+
+.active {
+    font-weight:bold;
+    border-bottom:3px solid #fff;
+    background: var(--secondary-color);
+}
+
+/* ---------- MENU ---------- */
+
+#menu {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "\2630";
+}
+
+#menu.show::before {
+    content: "\00D7";
+}
+
+/* ---------- BUTTONS ---------- */
+
+.filters {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:.5rem;
+    margin:1rem;
+}
+
+.filters button {
+    background:#dfe8f2;
+    color:var(--primary-color);
+    border:1px solid var(--border-color);
+    padding:.45rem;
+    border-radius:4px;
+    width:100%;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.filters button:hover,
+.filters button:focus {
+    background:var(--secondary-color);
+    color:white;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background:white;
+    color:var(--text-color);
+    text-align:center;
+    padding:1rem;
+    border-top:1px solid var(--border-color);
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social img {
+    width:32px;
+}
+.social a:hover img {
+    transform: scale(1.1);
+}
+
+.social img {
+    transition: transform 0.3s ease;
+}

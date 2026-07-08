@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navigation li {
+        list-style: none;
+        border: none;
+        flex: 1;
+        text-align: center;
+    }
+
+    .top-sections {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .filters {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #courses {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
