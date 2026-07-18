@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>San Pedro de la Paz Chamber of Commerce | Directory</title>
+
+    <meta name="description" content="Business directory for the San Pedro de la Paz Chamber of Commerce, featuring local businesses, contact information, and membership details.">
+    <meta name="author" content="Vincenzo Panes">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+
+    <meta property="og:title" content="San Pedro de la Paz Chamber of Commerce">
+    <meta property="og:description" content="Connecting local businesses and the community.">
+    <meta property="og:image" content="https://vincenzopanes.github.io/wdd231/chamber/images/hero.webp">
+    <meta property="og:url" content="https://vincenzopanes.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Site logo" width="40" height="40">
+            <span>San Pedro de la Paz Chamber of Commerce</span>
+        </div>
+        <nav aria-label="Primary Navigation">
+            <button id="menu" aria-label="Open navigation menu">☰</button>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Business Directory</h1>
+        <div class="view-buttons">
+            <button id="grid">⬛ Grid</button>
+            <button id="list">📋 List</button>
+        </div>
+
+        <!-- Directory cards generated with JavaScript -->
+        <section id="members" class="grid"></section>
+    </main>
+    <footer>
+        <p>San Pedro de la Paz Chamber of Commerce</p>
+        <address>
+            123 Los Carrera Avenue <br>
+            San Pedro de la Paz <br>
+            Chile
+        </address>
+
+        <p>Email:
+            <a href="mailto:info@spdchamber.cl">info@spdchamber.cl</a></p>
+
+        <p>Phone:
+            <a href="tel:+56412223344">+56 41 222 3344</a></p>
+
+        <p>&copy; <span id="currentyear"></span> | Vincenzo Panes | WDD231</p>
+
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+</body>
+</html>

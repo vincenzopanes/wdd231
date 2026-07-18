@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #members.grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
+    }
+}

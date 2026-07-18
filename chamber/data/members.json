@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Panadería San Pedro",
+        "address": "Av Pedro Aguirre Cerda 1200",
+        "phone": "+56 41 2223344",
+        "website": "https://www.panaderiasanpedro.cl",
+        "image": "panaderia.webp",
+        "membership": 3,
+        "description": "Fresh bread and pastries every day."
+    },
+    {
+        "name": "Café Laguna",
+        "address": "Laguna Grande 560",
+        "phone": "+56 41 5558899",
+        "website": "https://www.cafelaguna.cl",
+        "image": "cafe.webp",
+        "membership": 2,
+        "description": "Local coffee shop with artisan products."
+  },
+  {
+        "name": "Ferretería Biobío",
+        "address": "Av. Michimalonco 980",
+        "phone": "+56 41 2345678",
+        "website": "https://www.ferreteriabiobio.cl",
+        "image": "ferreteria.webp",
+        "membership": 1,
+        "description": "Hardware store serving the community."
+  },
+  {
+        "name": "Farmacia Salud",
+        "address": "Los Canelos 345",
+        "phone": "+56 41 2123456",
+        "website": "https://www.farmaciasalud.cl",
+        "image": "farmacia.webp",
+        "membership": 3,
+        "description": "Health and pharmaceutical services."
+  },
+  {
+        "name": "Librería Central",
+        "address": "Av. Los Aromos 215",
+        "phone": "+56 41 2987654",
+        "website": "https://www.libreriacentral.cl",
+        "image": "libreria.webp",
+        "membership": 2,
+        "description": "Books, office supplies, and school materials."
+  },
+  {
+        "name": "Hotel Laguna",
+        "address": "Costanera 120",
+        "phone": "+56 41 2876543",
+        "website": "https://www.hotellaguna.cl",
+        "image": "hotel.webp",
+        "membership": 3,
+        "description": "Comfortable accommodation near Laguna Grande."
+  },
+  {
+        "name": "Restaurante Don Pedro",
+        "address": "Av. Costanera 890",
+        "phone": "+56 41 2765432",
+        "website": "https://www.restaurantedonpedro.cl",
+        "image": "restaurant.webp",
+        "membership": 2,
+        "description": "Traditional Chilean cuisine."
+    }
+]

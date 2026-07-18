@@ -1,21 +1,21 @@
 {
     "familyName": "Panes",
     "moveInDate": "2018-03-20",
-    "familyMembers": 4,
-    "visitedByBishop": true,
+    "familyMembers": 3,
+    "visitedByBishopric": true,
     "members": [
         {
-            "firstName": "Vincenzo Panes",
+            "name": "Vincenzo Panes",
             "gender": "male",
             "birthdate": "2005-03-14"
         },
         {
-            "firstName": "Remigio Panes",
+            "name": "Remigio Panes",
             "gender": "male",
             "birthdate": "2003-06-24"
         },
         {
-            "firstName": "Marco Panes",
+            "name": "Marco Panes",
             "gender": "male",
             "birthdate": "1968-09-05"
         }
