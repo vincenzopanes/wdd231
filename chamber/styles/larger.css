@@ -18,4 +18,14 @@
     #members.grid {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
     }
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1rem;
+    }
+
+    .spotlights {
+        grid-column: 1/3;
+    }
 }
