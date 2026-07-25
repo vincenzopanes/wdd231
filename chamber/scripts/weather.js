@@ -12,27 +12,29 @@ async function getWeather() {
     document.querySelector("#weather-desc").textContent =
     data.list[0].weather[0].description;
 
-}
+    const forecast = document.querySelector("#forecast");
+    forecast.innerHTML = "";
 
-const forecast = document.querySelector("#forecast");
+    let daysShown = 0;
 
-let daysShown = 0;
+    for(let i=0; i<data.list.length; i++){
+        const item = data.list[i];
 
-for(let i=0; i<data.list.length; i++){
-    const item = data.list[i];
+        if(item.dt_txt.includes("12:00:00")){
 
-    if(item.dt_txt.includes("12:000:000")){
+            const card = document.createElement("p");
+            const date = new Date(item.dt_txt);
 
-        const card = document.createElement("p");
-        const data = new Date(item.dt_txt);
+            card.textContent = 
+            `${date.toLocaleDateString("en-US", {weekday: "long"})}: ${item.main.temp.toFixed(0)}°C`;
 
-        card.textContent = 
-        `${Date.toLocalDateString("en-Us", {weekday: "long"})}: ${item.main.temp.toFixed(0)}°C`;
+            forecast.append(card);
 
-        forecast.append(card);
+            daysShown++;
 
-        daysShown++;
-
-        if(daysShown === 3) break;
+            if(daysShown === 3) break;
+        }
     }
 }
+
+getWeather();

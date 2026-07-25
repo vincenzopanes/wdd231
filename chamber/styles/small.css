@@ -128,7 +128,7 @@ main {
 /* SPOTLIGHT */
 #spotlight-container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     gap: 1rem;
 }
 .spotlight{
@@ -157,7 +157,7 @@ main {
     left: 50%;
     transform:translate(-50%,-50%);
     background:rgba(0,0,0,.5);
-    color: var(--background-color);
+    color: var(--background-color); 
     padding: 1rem;
     text-align: center;
 }

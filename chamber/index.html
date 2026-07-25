@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Pedro de la Paz Chamber of Commerce | Directory</title>
+    <title>San Pedro de la Paz Chamber of Commerce</title>
 
     <meta name="description" content="Business directory for the San Pedro de la Paz Chamber of Commerce, featuring local businesses, contact information, and membership details.">
     <meta name="author" content="Vincenzo Panes">
@@ -25,12 +25,13 @@
     <meta property="og:title" content="San Pedro de la Paz Chamber of Commerce">
     <meta property="og:description" content="Explore local businesses, discover community events, and connect with the San Pedro de la Paz Chamber of Commerce.">
     <meta property="og:image" content="https://vincenzopanes.github.io/wdd231/chamber/images/logo.png">
-    <meta property="og:url" content="https://vincenzopanes.github.io/wdd231/chamber/directory.html">
+    <meta property="og:url" content="https://vincenzopanes.github.io/wdd231/chamber/index.html">
     <meta property="og:type" content="website">
 
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/dates.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 </head>
 
 <body>
@@ -42,43 +43,48 @@
         <nav aria-label="Primary Navigation">
             <button id="menu" aria-label="Open navigation menu">☰</button>
             <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
-    <section>
-        <picture srcset="images/hero.webp" media="(min-width:800px)"></picture>
-            <source>
-            <img src="images/hero.webp" alt="San Pedro de la Paz" width="1200" height="600">
-        </picture>
-        <div>
-            <h1>San Pedro de la Paz Chamber of Commerce</h1>
-            <p>Connecting businesses and strengthening our community.</p>
-            <a href="join.html" class="button">Join the Chamber</a>
+    </header>
+    <main>
+        <section class="hero">
+            <picture>
+                <source srcset="images/hero.webp" media="(min-width:800px)">
+                <img src="images/hero.webp" alt="View of San Pedro de la Paz overlooking Laguna Grande" width="1200" height="600">
+            </picture>
+            <div class="hero-text">
+                <h1>San Pedro de la Paz Chamber of Commerce</h1>
+                <p>Connecting businesses and strengthening our community.</p>
+                <a class="button" href="join.html">Join the Chamber</a>
+            </div>
+        </section>
+        <div class="home-grid">
+            <section class="events">
+                <h2>Current Events</h2>
+                <article>
+                    <h3>Business Networking Breakfast</h3>
+                    <p>Join local entrepreneurs on August 12 for networking, collaboration, and business opportunities.</p>
+                </article>
+            </section>
+            <section class="weather">
+                <h2>Current Weather</h2>
+                <p>Temperature:
+                <span id="current-temp"></span>
+                </p>
+                <p id="weather-desc"></p>
+                <h3>3-Day Forecast</h3>
+                <div id="forecast"></div>
+            </section>
+            <section class="spotlights">
+                <h2>Business Spotlights</h2>
+                <div id="spotlight-container"></div>
+            </section>
         </div>
-    </section>
-    <section class="events">
-        <h2>Current Events</h2>
-        <article>
-            <h3>Business Networking Breakfast</h3>
-            <p>Join local entrepreneurs on August 12 for networking, collaboration, and business opportunities.</p>
-        </article>
-    </section>
-    <section class="weather">
-        <h2>Current Weather</h2>
-        <p>Temperature:
-        <span id="current-temp"></span>
-        </p>
-        <p id="weather-desc"></p>
-        <h3>3-Day Forecast</h3>
-        <div id="forecast"></div>
-    </section>
-    <section class="spotlights">
-        <h2>Business Spotlights</h2>
-        <div id="spotlight-container"></div>
-    </section>
+    </main>
 
     <footer>
         <p>San Pedro de la Paz Chamber of Commerce</p>

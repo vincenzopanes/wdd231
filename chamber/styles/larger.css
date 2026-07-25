@@ -19,6 +19,10 @@
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));;
     }
 
+    #spotlight-container {
+    grid-template-columns: repeat(3, 1fr);
+    }
+    
     .home-grid {
         display: grid;
         grid-template-columns: 2fr 1fr;
