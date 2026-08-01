@@ -25,17 +25,13 @@
     <meta property="og:title" content="San Pedro de la Paz Chamber of Commerce">
     <meta property="og:description" content="Explore local businesses, discover community events, and connect with the San Pedro de la Paz Chamber of Commerce.">
     <meta property="og:image" content="https://vincenzopanes.github.io/wdd231/chamber/images/logo.png">
-    <meta property="og:url" content="https://vincenzopanes.github.io/wdd231/chamber/index.html">
+    <meta property="og:url" content="https://vincenzopanes.github.io/wdd231/chamber/thankyou.html">
     <meta property="og:type" content="website">
 
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/dates.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/spotlight.js" defer></script>
-    <script src="scripts/join.js" defer></script>
     <script src="scripts/thankyou.js" defer></script>
 </head>
-
 <body>
     <header>
         <div class="logo">
@@ -45,47 +41,22 @@
         <nav aria-label="Primary Navigation">
             <button id="menu" aria-label="Open navigation menu">☰</button>
             <ul class="navigation">
-                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="hero">
-            <picture>
-                <source srcset="images/hero.webp" media="(min-width:800px)">
-                <img src="images/hero.webp" alt="View of San Pedro de la Paz overlooking Laguna Grande" width="1200" height="600">
-            </picture>
-            <div class="hero-text">
-                <h1>San Pedro de la Paz Chamber of Commerce</h1>
-                <p>Connecting businesses and strengthening our community.</p>
-                <a class="button" href="join.html">Join the Chamber</a>
-            </div>
+    
+    <main class="thankyou-page">
+        <h1>Thank You for Joining!</h1>
+        <p>Your membership application has been received. We will review your information and get back to you shortly.</p>
+    
+        <section class="application-info">
+            <h2>Application Details</h2>
+            <div id="results"></div>
         </section>
-        <div class="home-grid">
-            <section class="events">
-                <h2>Current Events</h2>
-                <article>
-                    <h3>Business Networking Breakfast</h3>
-                    <p>Join local entrepreneurs on August 12 for networking, collaboration, and business opportunities.</p>
-                </article>
-            </section>
-            <section class="weather">
-                <h2>Current Weather</h2>
-                <p>Temperature:
-                <span id="current-temp"></span>
-                </p>
-                <p id="weather-desc"></p>
-                <h3>3-Day Forecast</h3>
-                <div id="forecast"></div>
-            </section>
-            <section class="spotlights">
-                <h2>Business Spotlights</h2>
-                <div id="spotlight-container"></div>
-            </section>
-        </div>
     </main>
 
     <footer>

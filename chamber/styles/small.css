@@ -171,6 +171,25 @@ main {
     border-radius: 8px;
 }
 
+/* THANK YOU */
+.thankyou-page {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.application-info {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.application-info p {
+    margin: 0.75rem 0;
+}
+
 /* FOOTER */
 footer {
     background: var(--primary-color);
