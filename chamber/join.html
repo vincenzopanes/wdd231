@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Pedro de la Paz Chamber of Commerce</title>
+    <title>Join the Chamber | San Pedro de la Paz Chamber of Commerce</title>
 
     <meta name="description" content="Business directory for the San Pedro de la Paz Chamber of Commerce, featuring local businesses, contact information, and membership details.">
     <meta name="author" content="Vincenzo Panes">
@@ -144,7 +144,7 @@
             <div class="card">
                 <h2>NP Membership</h2>
                 <p>For nonprofit organizations.</p>
-                <a href="#" onclick="document.getElementById('npModal').showModal(); return false;">
+                <a href="#" class="open-modal" data-modal="npModal">
                     Learn More
                 </a>
             </div>
@@ -152,7 +152,7 @@
             <div class="card">
                 <h2>Bronze Membership</h2>
                 <p>Basic benefits for small businesses.</p>
-                <a href="#" onclick="document.getElementById('bronzeModal').showModal(); return false;">
+                <a href="#" class="open-modal" data-modal="bronzeModal">
                     Learn More
                 </a>
             </div>
@@ -160,7 +160,7 @@
             <div class="card">
                 <h2>Silver Membership</h2>
                 <p>More visibility and training.</p>
-                <a href="#" onclick="document.getElementById('silverModal').showModal(); return false;">
+                <a href="#" class="open-modal" data-modal="silverModal">
                     Learn More
                 </a>
             </div>
@@ -170,7 +170,7 @@
                 <p>Maximum exposure and exclusive benefits.</p>
                 <li>Homepage advertising</li>
                 <li>Discounts on chamber events</li>
-                <a href="#" onclick="document.getElementById('goldModal').showModal(); return false;">
+                <a href="#" class="open-modal" data-modal="goldModal">
                     Learn More
                 </a>
             </div>
@@ -190,7 +190,7 @@
             <li>Community events</li>
         </ul>
 
-        <button onclick="document.getElementById('npModal').close()">
+        <button class="close-modal">
             Close
         </button>
     </dialog>
@@ -206,7 +206,7 @@
             <li>Monthly newsletter</li>
         </ul>
 
-        <button onclick="document.getElementById('bronzeModal').close()">
+        <button class="close-modal">
             Close
         </button>
     </dialog>
@@ -222,7 +222,7 @@
             <li>Access to exclusive workshops</li>
         </ul>
 
-        <button onclick="document.getElementById('silverModal').close()">
+        <button class="close-modal">
             Close
         </button>
     </dialog>
@@ -238,7 +238,7 @@
             <li>Priority access to events</li>
         </ul>
 
-        <button onclick="document.getElementById('goldModal').close()">
+        <button class="close-modal">
             Close
         </button>
     </dialog>
