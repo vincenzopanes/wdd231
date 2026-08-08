@@ -32,4 +32,8 @@
     .spotlights {
         grid-column: 1/3;
     }
+
+    .card img:hover{
+        transform:scale(1.05);
+    }
 }

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Laguna Grande",
+    "address": "San Pedro de la Paz, Chile",
+    "description": "A beautiful lagoon ideal for walking, cycling, kayaking, and enjoying nature with family and friends.",
+    "image": "images/laguna-grande.webp",
+    "alt": "View of Laguna Grande in San Pedro de la Paz",
+    "url": "https://maps.google.com/?q=Laguna+Grande+San+Pedro+de+la+Paz"
+  },
+  {
+    "name": "Laguna Chica",
+    "address": "San Pedro de la Paz, Chile",
+    "description": "A peaceful lagoon surrounded by green areas, perfect for relaxing walks and outdoor recreation.",
+    "image": "images/laguna-chica.webp",
+    "alt": "Laguna Chica in San Pedro de la Paz",
+    "url": "https://maps.google.com/?q=Laguna+Chica+San+Pedro+de+la+Paz"
+  },
+  {
+    "name": "Parque Laguna Grande",
+    "address": "San Pedro de la Paz, Chile",
+    "description": "A large public park featuring walking trails, picnic areas, playgrounds, and beautiful views of the lagoon.",
+    "image": "images/parque-laguna-grande.webp",
+    "alt": "Parque Laguna Grande in San Pedro de la Paz",
+    "url": "https://maps.google.com/?q=Parque+Laguna+Grande+San+Pedro+de+la+Paz"
+  },
+  {
+    "name": "Puente Llacolén",
+    "address": "San Pedro de la Paz, Chile",
+    "description": "An iconic bridge connecting San Pedro de la Paz with Concepción while offering impressive views of the Biobío River.",
+    "image": "images/puente-llacolen.webp",
+    "alt": "Puente Llacolén over the Biobío River",
+    "url": "https://maps.google.com/?q=Puente+Llacolén+San+Pedro+de+la+Paz"
+  },
+  {
+    "name": "Humedal Los Batros",
+    "address": "San Pedro de la Paz, Chile",
+    "description": "An important protected wetland known for its biodiversity, native vegetation, and birdwatching opportunities.",
+    "image": "images/humedal-los-batros.webp",
+    "alt": "Humedal Los Batros nature reserve",
+    "url": "https://maps.google.com/?q=Humedal+Los+Batros+San+Pedro+de+la+Paz"
+  },
+  {
+    "name": "Playa de San Pedro",
+    "address": "San Pedro de la Paz, Chile",
+    "description": "A lakeside beach where visitors can relax, enjoy the scenery, and spend time outdoors during the summer.",
+    "image": "images/playa-de-san-pedro.webp",
+    "alt": "Playa de San Pedro by the lagoon",
+    "url": "https://maps.google.com/?q=Playa+de+San+Pedro+San+Pedro+de+la+Paz"
+  },
+  {
+    "name": "Anfiteatro de San Pedro",
+    "address": "San Pedro de la Paz, Chile",
+    "description": "An outdoor venue that hosts concerts, cultural performances, festivals, and community events throughout the year.",
+    "image": "images/anfiteatro-de-san-pedro.webp",
+    "alt": "Outdoor amphitheater in San Pedro de la Paz",
+    "url": "https://maps.google.com/?q=Anfiteatro+de+San+Pedro+San+Pedro+de+la+Paz"
+  },
+  {
+    "name": "Biblioteca Municipal",
+    "address": "San Pedro de la Paz, Chile",
+    "description": "A modern public library offering books, study spaces, educational resources, and community activities for all ages.",
+    "image": "images/biblioteca-municipal.webp",
+    "alt": "Municipal Library of San Pedro de la Paz",
+    "url": "https://maps.google.com/?q=Biblioteca+Municipal+San+Pedro+de+la+Paz"
+  }
+]

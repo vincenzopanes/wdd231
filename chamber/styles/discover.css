@@ -1,0 +1,123 @@
+/* Discover Page */
+
+.discover-grid {
+    display: grid;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+/* -------------------- */
+/* Mobile Layout        */
+/* -------------------- */
+
+.card {
+    display: grid;
+    grid-template-areas:
+        "title"
+        "image"
+        "address"
+        "description"
+        "button";
+
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.card h2 {
+    grid-area: title;
+    margin: 0;
+}
+
+.card img {
+    grid-area: image;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.card .address {
+    grid-area: address;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card p:last-of-type {
+    grid-area: description;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.card .button {
+    grid-area: button;
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Visit message */
+
+.visit-message {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* -------------------- */
+/* Tablet Layout        */
+/* -------------------- */
+
+@media screen and (min-width: 600px) {
+
+    .discover-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        grid-template-areas:
+            "title title"
+            "image address"
+            "image description"
+            "image button";
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+
+/* -------------------- */
+/* Desktop Layout       */
+/* -------------------- */
+
+@media screen and (min-width: 900px) {
+
+    .discover-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .card {
+        grid-template-areas:
+            "image image"
+            "title title"
+            "address address"
+            "description description"
+            "button button";
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* Hover effect only on larger screens */
+
+    .card img {
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .card img:hover {
+        transform: scale(1.03);
+        filter: brightness(0.9);
+    }
+}
