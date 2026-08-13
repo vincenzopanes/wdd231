@@ -1,0 +1,57 @@
+/* ================================
+   Larger Screen Layout
+   ================================ */
+
+@media screen and (min-width: 768px) {
+
+    .site-header {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1rem 2rem;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .navigation.open {
+        position: static;
+        flex-direction: row;
+    }
+
+    .navigation a {
+        padding: 0.6rem 1rem;
+        border-radius: 0.25rem;
+    }
+
+    main {
+        width: min(100% - 4rem, 1200px);
+    }
+
+    .hero {
+        margin: 0 -2rem;
+        padding: 6rem 2rem;
+    }
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero p {
+        font-size: 1.25rem;
+    }
+
+    .featured-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    footer {
+        padding: 3rem 2rem;
+    }
+}

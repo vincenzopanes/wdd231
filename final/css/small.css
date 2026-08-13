@@ -1,0 +1,312 @@
+/* ================================
+   Base Styles
+   Discover Cobquecura
+   ================================ */
+
+:root {
+    --primary-color: #173f5f;
+    --secondary-color: #20639b;
+    --accent-color: #f6c85f;
+    --background-color: #f5f7f8;
+    --surface-color: #ffffff;
+    --text-color: #1f2933;
+    --light-text: #ffffff;
+    --border-color: #d9e2ec;
+
+    --heading-font: "Roboto", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: var(--body-font);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: var(--secondary-color);
+}
+
+a:hover,
+a:focus {
+    color: var(--primary-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+    line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+
+/* ================================
+   Header
+   ================================ */
+
+header {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+}
+
+.site-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo {
+    color: var(--light-text);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.menu-button {
+    border: 2px solid var(--light-text);
+    background: transparent;
+    color: var(--light-text);
+    font-size: 1.5rem;
+    padding: 0.25rem 0.6rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+    background-color: var(--light-text);
+    color: var(--primary-color);
+}
+
+
+/* ================================
+   Navigation
+   ================================ */
+
+.navigation {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: var(--primary-color);
+}
+
+.navigation a {
+    display: block;
+    padding: 0.8rem 1rem;
+    color: var(--light-text);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+    background-color: var(--secondary-color);
+}
+
+.navigation a.active {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+
+/* ================================
+   Main
+   ================================ */
+
+main {
+    width: min(100% - 2rem, 1200px);
+    margin: 0 auto;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+
+/* ================================
+   Hero
+   ================================ */
+
+.hero {
+    min-height: 70vh;
+    margin: 0 -1rem;
+    padding: 5rem 1rem;
+    display: flex;
+    align-items: center;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("../images/cobquecura-hero.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-content {
+    max-width: 650px;
+    color: var(--light-text);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+}
+
+.eyebrow {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+}
+
+
+/* ================================
+   Buttons
+   ================================ */
+
+.button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.3rem;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--light-text);
+    color: var(--primary-color);
+}
+
+
+/* ================================
+   Intro
+   ================================ */
+
+.intro {
+    padding: 1rem 0;
+}
+
+.intro h2,
+.featured h2 {
+    color: var(--primary-color);
+}
+
+
+/* ================================
+   Featured Places
+   ================================ */
+
+.featured-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.place-card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.place-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.place-card-content {
+    padding: 1rem;
+}
+
+.place-card h3 {
+    color: var(--primary-color);
+}
+
+.place-category {
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+
+/* ================================
+   Footer
+   ================================ */
+
+footer {
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    text-align: center;
+}
+
+footer a {
+    color: var(--accent-color);
+}
+
+footer a:hover,
+footer a:focus {
+    color: var(--light-text);
+}
+
+
+/* ================================
+   Accessibility
+   ================================ */
+
+:focus-visible {
+    outline: 3px solid var(--accent-color);
+    outline-offset: 3px;
+}

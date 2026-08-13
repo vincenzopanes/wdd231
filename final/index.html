@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Discover Cobquecura | Explore the Coast of Chile</title>
+
+    <meta
+        name="description"
+        content="Discover Cobquecura, Chile, and explore its beaches, natural landmarks, history, culture, and local attractions."
+    >
+    <meta name="author" content="Vincenzo Panes">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Discover Cobquecura | Explore the Coast of Chile">
+    <meta
+        property="og:description"
+        content="Explore the beaches, natural landmarks, history, and culture of Cobquecura, Chile."
+    >
+    <meta property="og:image" content="images/cobquecura-og.webp">
+    <meta property="og:url" content="https://vincenzopanes.github.io/wdd231/final/">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- JavaScript -->
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="site-header">
+            <a href="index.html" class="logo">Cobquecura</a>
+
+            <button
+                id="menu"
+                class="menu-button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <nav aria-label="Main navigation">
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="places.html">Places</a>
+                    </li>
+                    <li>
+                        <a href="visit.html">Visit</a>
+                    </li>
+                    <li>
+                        <a href="references.html">References</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero section -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">Ñuble, Chile</p>
+                <h1>Discover Cobquecura</h1>
+                <p>
+                    Explore the natural beauty, history, and coastal
+                    charm of one of Chile's most unique destinations.
+                </p>
+
+                <a href="places.html" class="button">
+                    Explore Cobquecura
+                </a>
+            </div>
+        </section>
+
+        <!-- Introduction -->
+        <section class="intro">
+            <h2>Welcome to Cobquecura</h2>
+
+            <p>
+                Cobquecura is a coastal town in the Ñuble Region of Chile,
+                known for its beautiful beaches, traditional architecture,
+                rocky coastline, and connection with nature.
+            </p>
+
+            <p>
+                Discover places to visit, activities to enjoy, and
+                information to help you plan your trip.
+            </p>
+        </section>
+
+        <!-- Featured places -->
+        <section class="featured">
+            <h2>Explore the Coast</h2>
+
+            <div id="featured-places" class="featured-grid">
+                <!-- Generated dynamically with JavaScript -->
+            </div>
+
+            <a href="places.html" class="button">
+                See All Places
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p><strong>Discover Cobquecura</strong></p>
+
+        <p>
+            Explore the coast, culture, and natural beauty of Cobquecura, Chile.
+        </p>
+
+        <p>
+            <a href="references.html">References & Attributions</a>
+        </p>
+
+        <p>
+            <a href="YOUR_VIDEO_URL_HERE">Project Video</a>
+        </p>
+
+        <p>
+            &copy; <span id="currentyear"></span>
+            | Vincenzo Panes | WDD231
+        </p>
+
+        <p>
+            Last Modification:
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+
+</body>
+</html>
