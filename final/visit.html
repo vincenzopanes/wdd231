@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Visit Cobquecura | Plan Your Trip</title>
+
+    <meta name="description" content="Plan your visit to Cobquecura, Chile. Find useful information about activities, travel, and places to enjoy.">
+    <meta name="author" content="Vincenzo Panes">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+
+    <script type="module" src="scripts/visit.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Cobquecura</h1>
+
+    <nav aria-label="Main navigation">
+        <button id="menu" aria-label="Open navigation menu">
+            ☰
+        </button>
+
+        <ul class="navigation">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="places.html">Places</a>
+            </li>
+
+            <li>
+                <a href="visit.html" class="active">Visit</a>
+            </li>
+
+            <li>
+                <a href="references.html">References</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="visit-intro">
+
+        <h2>Plan Your Visit</h2>
+
+        <p>
+            Cobquecura is a coastal town in the Ñuble Region of Chile,
+            known for its beaches, natural landscapes, wildlife, and
+            historic architecture.
+        </p>
+
+        <p>
+            Use the information below to start planning your trip and
+            discover what makes Cobquecura a special destination.
+        </p>
+
+    </section>
+
+
+    <section class="visit-information">
+
+        <h2>Before You Go</h2>
+
+        <div class="info-grid">
+
+            <article class="info-card">
+
+                <h3>🌊 Beaches</h3>
+
+                <p>
+                    Cobquecura has several beaches where visitors can
+                    enjoy the Pacific coastline and surrounding landscapes.
+                </p>
+
+            </article>
+
+
+            <article class="info-card">
+
+                <h3>🥾 Outdoor Activities</h3>
+
+                <p>
+                    Explore coastal trails, viewpoints, wetlands,
+                    rivers, and rural landscapes around the area.
+                </p>
+
+            </article>
+
+
+            <article class="info-card">
+
+                <h3>🏛️ History and Culture</h3>
+
+                <p>
+                    Discover the historic center of Cobquecura and its
+                    traditional buildings made with stone, adobe,
+                    and native wood.
+                </p>
+
+            </article>
+
+
+            <article class="info-card">
+
+                <h3>📅 Best Time to Visit</h3>
+
+                <p>
+                    Summer is popular for enjoying the beaches and
+                    outdoor activities, while other seasons offer a
+                    quieter experience.
+                </p>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <section class="visit-form-section">
+
+        <h2>Plan Your Visit</h2>
+
+        <p>
+            Tell us a little about your trip and what you would like
+            to explore in Cobquecura.
+        </p>
+
+        <form method="get" action="thankyou.html">
+
+            <label for="name">
+                Name
+            </label>
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                required
+                title="Enter your name"
+            >
+
+
+            <label for="email">
+                Email
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                placeholder="example@email.com"
+                required
+                title="Enter your email address"
+            >
+
+
+            <label for="date">
+                Planned Visit Date
+            </label>
+
+            <input
+                type="date"
+                id="date"
+                name="date"
+                required
+                title="Select your planned visit date"
+            >
+
+
+            <label for="interest">
+                What are you most interested in?
+            </label>
+
+            <select
+                id="interest"
+                name="interest"
+                required
+            >
+                <option value="">Select an option</option>
+                <option value="beaches">Beaches</option>
+                <option value="nature">Nature and Wildlife</option>
+                <option value="history">History and Culture</option>
+                <option value="outdoor">Outdoor Activities</option>
+            </select>
+
+
+            <label for="message">
+                Tell us about your trip
+            </label>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="What would you like to see or do in Cobquecura?"
+            ></textarea>
+
+
+            <input
+                type="submit"
+                value="Plan My Visit"
+                class="submit-button"
+            >
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>Cobquecura</p>
+
+    <p>
+        <a href="references.html">
+            References & Attributions
+        </a>
+    </p>
+
+    <p>
+        <a
+            href="https://youtube.com/"
+            target="_blank"
+            rel="noopener"
+        >
+            Project Video
+        </a>
+    </p>
+
+    <p>
+        &copy;
+        <span id="currentyear"></span>
+        | Vincenzo Panes | WDD231
+    </p>
+
+    <p>
+        Last Modification:
+        <span id="lastModified"></span>
+    </p>
+
+</footer>
+
+</body>
+</html>

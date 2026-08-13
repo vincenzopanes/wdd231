@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Thank You | Discover Cobquecura</title>
+
+    <meta
+        name="description"
+        content="Thank you for planning your visit to Cobquecura. Review the information submitted through the visit planning form."
+    >
+
+    <meta name="author" content="Vincenzo Panes">
+
+    <meta
+        property="og:title"
+        content="Thank You | Discover Cobquecura"
+    >
+
+    <meta
+        property="og:description"
+        content="Your Cobquecura visit information has been received."
+    >
+
+    <meta
+        property="og:image"
+        content="https://vincenzopanes.github.io/wdd231/final/images/cobquecura-hero.webp"
+    >
+
+    <meta
+        property="og:url"
+        content="https://vincenzopanes.github.io/wdd231/final/thankyou.html"
+    >
+
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="icon" href="favicon.ico">
+
+    <script type="module" src="scripts/thankyou.js"></script>
+</head>
+
+<body>
+
+<header>
+    <div class="site-header">
+
+        <a href="index.html" class="logo">
+            Cobquecura
+        </a>
+
+        <button
+            id="menu"
+            class="menu-button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+        <nav aria-label="Main navigation">
+            <ul class="navigation">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="places.html">Places</a>
+                </li>
+
+                <li>
+                    <a href="visit.html">Visit</a>
+                </li>
+
+                <li>
+                    <a href="references.html">References</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <section class="intro">
+
+        <h1>Thank You!</h1>
+
+        <p>
+            Thank you for sharing your travel plans with us.
+            Here is the information you submitted.
+        </p>
+
+    </section>
+
+
+    <section class="application-info">
+
+        <h2>Your Visit Plan</h2>
+
+        <div id="results">
+            <!-- JavaScript will display the submitted information -->
+        </div>
+
+    </section>
+
+
+    <section class="intro">
+
+        <a href="places.html" class="button">
+            Explore Cobquecura
+        </a>
+
+        <a href="visit.html" class="button">
+            Plan Another Visit
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        <strong>Discover Cobquecura</strong>
+    </p>
+
+    <p>
+        <a href="references.html">
+            References & Attributions
+        </a>
+    </p>
+
+    <p>
+        <a
+            href="https://youtube.com/"
+            target="_blank"
+            rel="noopener"
+        >
+            Project Video
+        </a>
+    </p>
+
+    <p>
+        &copy; <span id="currentyear"></span>
+        | Vincenzo Panes | WDD231
+    </p>
+
+    <p>
+        Last Modification:
+        <span id="lastModified"></span>
+    </p>
+
+</footer>
+
+</body>
+</html>

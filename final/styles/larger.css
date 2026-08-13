@@ -51,6 +51,44 @@
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .places-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .place-card {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .place-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+    }
+
+    .home-highlights {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .visit-callout {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem;
+    }
+
+    .visit-callout .button {
+        flex-shrink: 0;
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .visit-form-section form {
+        padding: 2rem;
+    }
+
     footer {
         padding: 3rem 2rem;
     }

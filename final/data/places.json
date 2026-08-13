@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "name": "Iglesia de Piedra",
+        "category": "Natural Landmark",
+        "location": "5 km north of Cobquecura",
+        "description": "A remarkable coastal rock formation that is part of the Islotes Lobería e Iglesia de Piedra Natural Sanctuary.",
+        "image": "images/iglesia-piedra.webp"
+    },
+    {
+        "id": 2,
+        "name": "La Lobería",
+        "category": "Wildlife",
+        "location": "Cobquecura",
+        "description": "A coastal sanctuary known for the presence of South American sea lions among its rocky formations.",
+        "image": "images/la-loberia.webp"
+    },
+    {
+        "id": 3,
+        "name": "Playa Cobquecura",
+        "category": "Beach",
+        "location": "Cobquecura",
+        "description": "A broad Pacific beach offering views of the coast and access to the natural landscape of the town.",
+        "image": "images/playa-cobquecura.webp"
+    },
+    {
+        "id": 4,
+        "name": "Playa Buchupureo",
+        "category": "Beach",
+        "location": "Buchupureo",
+        "description": "A coastal destination known for its beach, countryside surroundings, and opportunities for outdoor activities.",
+        "image": "images/playa-buchupureo.webp"
+    },
+    {
+        "id": 5,
+        "name": "Playa La Boca de Buchupureo",
+        "category": "Beach",
+        "location": "Buchupureo",
+        "description": "A coastal area where the river and ocean meet, forming a distinctive natural landscape.",
+        "image": "images/boca-buchupureo.webp"
+    },
+    {
+        "id": 6,
+        "name": "Playa Rinconada de Taucú",
+        "category": "Beach",
+        "location": "Taucú",
+        "description": "A scenic beach area near Taucú where visitors can enjoy the coastal landscape and ocean views.",
+        "image": "images/rinconada-taucu.webp"
+    },
+    {
+        "id": 7,
+        "name": "Caleta Taucú",
+        "category": "Local Culture",
+        "location": "Taucú",
+        "description": "A traditional coastal fishing area that represents an important part of the local maritime culture.",
+        "image": "images/caleta-taucu.webp"
+    },
+    {
+        "id": 8,
+        "name": "Humedal de Taucú",
+        "category": "Nature",
+        "location": "Taucú",
+        "description": "A wetland environment recognized as one of the natural attractions of the Cobquecura area.",
+        "image": "images/humedal-taucu.webp"
+    },
+    {
+        "id": 9,
+        "name": "Plaza de Armas",
+        "category": "Culture",
+        "location": "Cobquecura",
+        "description": "The central public square of Cobquecura, located within the historic heart of the town.",
+        "image": "images/plaza-cobquecura.webp"
+    },
+    {
+        "id": 10,
+        "name": "Iglesia San José",
+        "category": "Historic",
+        "location": "Cobquecura",
+        "description": "A historic church located beside the Plaza de Armas, notable for its use of stone and native wood.",
+        "image": "images/iglesia-san-jose.webp"
+    },
+    {
+        "id": 11,
+        "name": "Historic Center of Cobquecura",
+        "category": "Historic",
+        "location": "Cobquecura",
+        "description": "The historic center is recognized as a Zona Típica and preserves traditional buildings made with materials such as stone, adobe, and native wood.",
+        "image": "images/centro-historico.webp"
+    },
+    {
+        "id": 12,
+        "name": "Costanera Cobquecura Park",
+        "category": "Outdoor",
+        "location": "Cobquecura",
+        "description": "A coastal public space where visitors can enjoy the oceanfront landscape and walk along the coast.",
+        "image": "images/parque-costanera.webp"
+    },
+    {
+        "id": 13,
+        "name": "Playa Mure",
+        "category": "Beach",
+        "location": "Mure",
+        "description": "A coastal beach in the Cobquecura area surrounded by natural landscapes.",
+        "image": "images/playa-mure.webp"
+    },
+    {
+        "id": 14,
+        "name": "Mirador Cobquecura",
+        "category": "Scenic View",
+        "location": "Mellinto",
+        "description": "A viewpoint offering panoramic views of the coastal landscape around Cobquecura.",
+        "image": "images/mirador-cobquecura.webp"
+    },
+    {
+        "id": 15,
+        "name": "Río Cobquecura",
+        "category": "Nature",
+        "location": "Cobquecura",
+        "description": "A river environment that forms part of the natural landscape surrounding the coastal town.",
+        "image": "images/rio-cobquecura.webp"
+    },
+    {
+        "id": 16,
+        "name": "Río Buchupureo",
+        "category": "Nature",
+        "location": "Buchupureo",
+        "description": "A river environment near Buchupureo that contributes to the area's combination of coastal and rural landscapes.",
+        "image": "images/rio-buchupureo.webp"
+    },
+    {
+        "id": 17,
+        "name": "Buchupureo",
+        "category": "Destination",
+        "location": "Cobquecura",
+        "description": "A rural coastal sector known for its beaches, countryside, and outdoor tourism experiences.",
+        "image": "images/buchupureo.webp"
+    },
+    {
+        "id": 18,
+        "name": "Cerro El Calvario",
+        "category": "Scenic View",
+        "location": "Cobquecura",
+        "description": "A local elevated area associated with views and the landscape surrounding the town.",
+        "image": "images/cerro-calvario.webp"
+    }
+]
