@@ -16,9 +16,10 @@ const navigation = document.querySelector(".navigation");
 
 if (menuButton && navigation) {
     menuButton.addEventListener("click", () => {
-        navigation.classList.toggle("open");
 
-        const isOpen = navigation.classList.contains("open");
+        const isOpen = navigation.classList.toggle("open");
+
+        menuButton.setAttribute("aria-expanded", isOpen);
 
         menuButton.setAttribute(
             "aria-label",
@@ -26,5 +27,7 @@ if (menuButton && navigation) {
                 ? "Close navigation menu"
                 : "Open navigation menu"
         );
+
+        menuButton.textContent = isOpen ? "✕" : "☰";
     });
 }

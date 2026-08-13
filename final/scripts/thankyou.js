@@ -34,8 +34,7 @@ if (params.toString()) {
 
     const name = getValue("name");
     const email = getValue("email");
-    const visitDate = getValue("visitDate");
-    const visitors = getValue("visitors");
+    const visitDate = getValue("date");
     const interest = getValue("interest");
     const message = getValue("message");
 
@@ -55,11 +54,6 @@ if (params.toString()) {
             <p>
                 <strong>Visit Date:</strong>
                 ${visitDate}
-            </p>
-
-            <p>
-                <strong>Number of Visitors:</strong>
-                ${visitors}
             </p>
 
             <p>
